@@ -484,7 +484,7 @@ import random
 async def eros(event):
     # Sadece grup ve kanallarda çalıştır
     if event.is_private:
-        await event.respond("Bu komut yalnızca grup ve kanallarda kullanılabilir.")
+        await event.respond("Bu komut yalnızca grup ve kanallarda kullanılabilir!")
         return
 
     # Grup veya kanal katılımcılarını al
